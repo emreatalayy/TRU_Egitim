@@ -1,8 +1,7 @@
 
-````markdown
 # TRÜ Yapay Zeka ve Robotik Kulübü — Ünides Programı Eğitim Kodu
 
-Bu proje, **Tokat Gaziosmanpaşa Üniversitesi Yapay Zeka ve Robotik Kulübü** tarafından **Ünides Programı** kapsamında geliştirilmiştir.  
+Bu proje, **Trabzon Üniversitesi Yapay Zeka ve Robotik Kulübü** tarafından **Ünides Programı** kapsamında verdiğim eğitimde geliştirilmiştir.  
 Amaç, Türkçe belgeler üzerinde çalışan bir **Retrieval-Augmented Generation (RAG)** tabanlı soru-cevap sistemini kurmak ve öğretmektir.
 
 ## Kurulum ve Çalıştırma
@@ -19,8 +18,6 @@ Google Generative AI API anahtarınızı alıp tanımlayın:
 export GOOGLE_API_KEY="senin_google_api_anahtarın"
 export GOOGLE_LLM="gemini-1.5-pro-latest"  # Opsiyonel
 ```
-
-👉 API anahtarını almak için: [https://makersuite.google.com/app/apikey](https://makersuite.google.com/app/apikey)
 
 Proje dosyasının olduğu dizinde:
 
@@ -87,7 +84,7 @@ flowchart TD
 
 ### Örnek Görsel
 
-![RAG Akışı](https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/static/img/rag.png)
+![RAG Akışı](https://www.deepchecks.com/wp-content/uploads/2024/10/img-rag-architecture-model.jpg)
 
 ## Notlar
 
