@@ -59,19 +59,6 @@ RAG, bir yapay zekanın yalnızca ezber bilgisini değil, dış belgeleri arayı
 ✅ Halüsinasyon riski azalır.
 ✅ Belgeler değiştikçe sistem güncellenir.
 
-### RAG Sistem Akışı
-
-```plaintext
-Soru → Vektör Arama (FAISS) → İlgili Belgeler → Yanıt Üretimi → Cevap
-```
-
-```mermaid
-flowchart TD
-    A[Soru] --> B[Vektör Arama (FAISS)]
-    B --> C[İlgili Belgeler]
-    C --> D[Sohbet Motoru]
-    D --> E[Cevap]
-```
 
 ### Bileşenler
 
@@ -84,7 +71,7 @@ flowchart TD
 
 ### Örnek Görsel
 
-![RAG Akışı](https://www.deepchecks.com/wp-content/uploads/2024/10/img-rag-architecture-model.jpg)
+![RAG Akışı](https://miro.medium.com/v2/resize:fit:1200/0*PwHnd3lp9AEg7TGv.png)
 
 ## Notlar
 
